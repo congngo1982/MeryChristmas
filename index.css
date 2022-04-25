@@ -1,0 +1,14 @@
+body {
+	margin-top: 0%;
+	margin-left: 0%;
+background-image: url("Background1.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.button {
+	position: relative;
+	left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, 0);
+}

@@ -1,0 +1,26 @@
+body {
+    margin-left: 0%;
+    margin-top: 0%;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+img {
+    width: 50%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    margin: 0 auto;
+    transform: translate(-50%, 0);
+    animation-name: move;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    color: rgb(82, 2, 86);
+}
